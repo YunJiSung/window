@@ -95,12 +95,51 @@
 }
 
 
+/* 전체 페이지에 적용할 스크롤바 스타일 (외부 스크롤바) */
+::-webkit-scrollbar {
+    width: 12px;
+    /* 스크롤바의 폭 */
+    border-radius: 6px;
+    /* 스크롤바의 둥근 모서리 */
+}
+
+::-webkit-scrollbar-track {
+    background: transparent;
+    /* 스크롤바 트랙의 배경색 */
+}
+
+::-webkit-scrollbar-thumb {
+    background: #c1c1c1;
+    /* 스크롤바 썸(움직이는 부분)의 배경색 */
+    border-radius: 6px;
+    /* 스크롤바 썸의 둥근 모서리 */
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #a8a8a8;
+    /* 스크롤바 썸에 마우스를 올렸을 때의 배경색 */
+}
+
+/* .layer {
+    width: 80vw;
+    height: 86vh;
+    position: absolute;
+    left: 50%;
+    transform: translatex(-50%);
+    bottom: 80px;
+    border-radius: 1px;
+    color: #fff;
+    font-family: "nanumSquareNeo";
+} */
 
 .layer {
     width: 80vw;
     height: 86vh;
     position: absolute;
-    left: 50%;
+    /* left: 50%; */
+    right: 0;
+    left: 0;
+    margin: 0 auto;
     transform: translatex(-50%);
     bottom: 80px;
     border-radius: 1px;
@@ -234,12 +273,21 @@
     font-size: 14px;
 }
 
+/* .youtube .view {
+  
+    margin-top: 30px;
+    overflow-y: scroll;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+} */
+
 .youtube .view {
     /* display: flex;
     flex-wrap: wrap;
     justify-content: space-between; */
     margin-top: 30px;
-    overflow-y: scroll;
+    /* overflow-y: scroll; */
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
     gap: 20px;
