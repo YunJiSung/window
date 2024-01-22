@@ -682,11 +682,6 @@ function YoutubeLayer({ isVisible, toggleVisibility }) {
   const [activeCategory, setActiveCategory] = useState('');
   const [nextPageToken, setNextPageToken] = useState('');
 
-  // useEffect(() => {
-  //   if (isVisible) {
-  //     fetchVideos(query);
-  //   }
-  // }, [isVisible, query]);
   useEffect(() => {
     if (isVisible && query.trim()) {
       fetchVideos(query);
