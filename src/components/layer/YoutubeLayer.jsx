@@ -767,7 +767,7 @@ function YoutubeLayer({ isVisible, toggleVisibility }) {
                 <div
                   key={video.id.videoId}
                   className="video"
-                  onClick={() => window.open(`https://www.youtube.com/watch?v=${video.id.videoId}`, '_blank')}
+                  onClick={() => window.open(`https://www.youtube.com/watch?v=${video.id.videoId}`, '_blank', 'noopener,noreferrer')}
                 >
                   <div
                     className="img play__icon"
