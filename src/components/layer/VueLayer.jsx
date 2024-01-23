@@ -66,7 +66,7 @@ function VueLayer({ isVisible, toggleVisibility }) {
                     <div className="layer__footer">
                         <div>😏 리액트를 이용하여 블로그를 작업하였습니다.</div>
                         <div>
-                            <span><a href="https://vite-project733.netlify.app/" target="_blank" className="ko">
+                            <span><a href="https://vite-project733.netlify.app/" target="_blank" rel="noopener noreferrer" className="ko">
                                 view
                             </a></span>
                             <span><a href="https://github.com/YunJiSung/vue-project" target="_blank" rel="noopener noreferrer" className="ko">

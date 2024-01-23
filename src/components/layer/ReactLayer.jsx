@@ -325,7 +325,7 @@ function ReactLayer({ isVisible, toggleVisibility }) {
           <div className="layer__footer">
             <div>😏 리액트를 이용하여 블로그를 작업하였습니다.</div>
             <div>
-              <span><a href="https://glittery-meringue-6e4151.netlify.app/" target="_blank" className="ko">
+              <span><a href="https://glittery-meringue-6e4151.netlify.app/" target="_blank" rel="noopener noreferrer" className="ko">
                 view
               </a></span>
               <span><a href="https://github.com/YunJiSung/youtube-project" target="_blank" rel="noopener noreferrer" className="ko">
