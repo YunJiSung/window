@@ -96,7 +96,6 @@ import YoutubeLayer from './layer/YoutubeLayer';
 import ReactLayer from './layer/ReactLayer';
 import MovieLayer from './layer/MovieLayer';
 import VueLayer from './layer/VueLayer';
-import ViteLayer from './layer/PhpLayer';
 import NewsfeedLayer from './menu/NewsfeedLayer'; // Newsfeed 레이어 컴포넌트 import
 import MenuLayer from './menu/MenuLayer';
 import SpotifyLayer from './menu/SpotifyLayer';
